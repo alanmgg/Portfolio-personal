@@ -1,0 +1,1022 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/images/fav-icon.png" type="image/x-icon"/>
+
+    <title>Personal Portfolio</title>
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!--=============== GOOGLE FONT ===============-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <!--=============== MAIN ===============-->
+    <main>
+      <!-- SIDEBAR -->
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img src="./assets/images/my-avatar.png" alt="Richard hanrick" width="80">
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Richard hanrick">Alan Francisco Mora</h1>
+            <p class="title">Software Developer</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Mostrar contacto</span>
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+            <ul class="contacts-list">
+              <li class="contact-item">
+                <div class="icon-box">
+                  <ion-icon name="mail-outline"></ion-icon>
+                </div>
+
+                <div class="contact-info">
+                  <p class="contact-title">Correo</p>
+                  <a href="mailto:alanfmorag@gmail.com" class="contact-link">alanfmorag@gmail.com</a>
+                </div>
+              </li>
+
+              <li class="contact-item">
+                <div class="icon-box">
+                  <ion-icon name="phone-portrait-outline"></ion-icon>
+                </div>
+
+                <div class="contact-info">
+                  <p class="contact-title">Teléfono</p>
+                  <a href="tel:+525549034170" class="contact-link">+52 55 4903 4170</a>
+                </div>
+              </li>
+
+              <li class="contact-item">
+                <div class="icon-box">
+                  <ion-icon name="calendar-outline"></ion-icon>
+                </div>
+
+                <div class="contact-info">
+                  <p class="contact-title">Cumpleaños</p>
+                  <time datetime="2000-01-20">Enero 20, 2000</time>
+                </div>
+              </li>
+
+              <li class="contact-item">
+                <div class="icon-box">
+                  <ion-icon name="location-outline"></ion-icon>
+                </div>
+
+                <div class="contact-info">
+                  <p class="contact-title">Ubicación</p>
+                  <address>Ciudad de México, México</address>
+                </div>
+              </li>
+            </ul>
+          <div class="separator"></div>
+
+          <ul class="social-list">
+            <li class="social-item">
+              <a href="https://www.facebook.com/Alan.Bananas.0/" target="_blank" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="https://github.com/alanmgg" target="_blank" class="social-link">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+            
+            <li class="social-item">
+              <a href="https://www.behance.net/alanmgg" target="_blank" class="social-link">
+                <ion-icon name="logo-behance"></ion-icon>
+              </a>
+            </li>
+            
+            <li class="social-item">
+              <a href="https://www.linkedin.com/in/alanmgg/" target="_blank" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="https://www.instagram.com/alanmg._/" target="_blank" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+            
+            <li class="social-item">
+              <a href="https://wa.me/+525549034170?text=Hola! Me gusto tu portafolio" target="_blank" class="social-link">
+                <ion-icon name="logo-whatsapp"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <!--=============== MAIN CONTENT ===============-->
+      <div class="main-content">
+        <!-- NAVBAR -->
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>Sobre mi</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Mi experiencia</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Portafolio</button>
+            </li>
+
+            <!-- <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Blog</button>
+            </li> -->
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Contacto</button>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- ABOUT -->
+        <article class="about active" data-page="sobre mi">
+          <header>
+            <h2 class="h2 article-title">Sobre mi</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              Un apasionado desarrollador de software, apasionado por el desarrollo web.
+              Me desenvuelvo como Full Stack ya que manejo de igual manera el Frontend y el Backend.
+              Originario de la Ciudad de México.
+              Disfruto convirtiendo problemas complejos en diseños simples, bellos e intuitivos.
+            </p>
+
+            <p>
+              Mi trabajo es construir su sitio web para que sea funcional y fácil de usar, pero al mismo tiempo atractivo.
+              Además, agrego un toque personal a su producto y me aseguro de que sea llamativo y fácil de usar. Mi objetivo es 
+              transmitir su mensaje e identidad de la manera más creativa. He creado ya diseño web para muchas empresas de marcas famosas.
+            </p>
+          </section>
+
+          <!-- SERVICE -->
+          <section class="service">
+            <h3 class="h3 service-title">¿Qué es lo que hago?</h3>
+
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img src="./assets/images/icon-design.svg
+                  " alt="design icon" width="40">
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Diseño web</h4>
+                  <p class="service-item-text">
+                    El diseño más moderno y de alta calidad hecho a nivel profesional.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Desarrollo web</h4>
+                  <p class="service-item-text">
+                    Desarrollo y testing web a nivel profesional.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Aplicaciones móviles</h4>
+                  <p class="service-item-text">
+                    Desarrollo profesional de aplicaciones para iOS y Android de forma nativa o reactiva.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Desarrollo de software</h4>
+                  <p class="service-item-text">
+                    Me apasiona desarrollar software en las nuevas tecnologías del mercado e integrarlas
+                    a mis trabajos.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <!-- TESTIMONIALS -->
+          <section class="testimonials">
+            <h3 class="h3 testimonials-title">Testimonios</h3>
+
+            <ul class="testimonials-list has-scrollbar">
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                  </figure>
+
+                  <h4 class="h4 testimonials-item-title" data-testimonials-title>Fernando Meza</h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Lorem ipsum dolor sit amet, ullamcous cididt
+                      consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>
+                  </figure>
+
+                  <h4 class="h4 testimonials-item-title" data-testimonials-title>Celeste Herrera</h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Alan como compañero es un gran líder, sabe trabajar en equipo y llevar proyectos ya que lleva un orden preciso sobre los 
+                      informes, versiones, entre otras cosas. Está dispuesto ayudar a los demás compañeros, es responsable con las fechas
+                      de entrega.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
+                  </figure>
+
+                  <h4 class="h4 testimonials-item-title" data-testimonials-title>Guadalupe González</h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Lorem ipsum dolor sit amet, ullamcous cididt
+                      consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <!-- <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
+                  </figure>
+
+                  <h4 class="h4 testimonials-item-title" data-testimonials-title>Henry william</h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                      lot of experience
+                      and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                      consectetur adipiscing
+                      elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                    </p>
+                  </div>
+                </div>
+              </li> -->
+            </ul>
+          </section>
+
+          <!-- TESTIMONIALS MODAL -->
+          <div class="modal-container" data-modal-container>
+            <div class="overlay" data-overlay></div>
+
+            <section class="testimonials-modal">
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+
+              <div class="modal-img-wrapper">
+                <figure class="modal-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+                </figure>
+
+                <img src="./assets/images/icon-quote.svg" alt="quote icon">
+              </div>
+
+              <div class="modal-content">
+                <h4 class="h3 modal-title" data-modal-title>Fernando Meza</h4>
+
+                <time datetime="2022-08-10">Agosto 10, 2022</time>
+
+                <div data-modal-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+              </div>
+            </section>
+          </div>
+
+          <!-- CLIENTS -->
+          <section class="clients">
+            <h3 class="h3 clients-title">Clientes</h3>
+
+            <ul class="clients-list has-scrollbar">
+              <li class="clients-item">
+                <a href="#">
+                  <img src="assets/images/logo-1-color.png" alt="client logo">
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img src="assets/images/logo-2-color.png" alt="client logo">
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img src="assets/images/logo-3-color.png" alt="client logo">
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img src="assets/images/logo-4-color.png" alt="client logo">
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img src="assets/images/logo-5-color.png" alt="client logo">
+                </a>
+              </li>
+
+              <!-- <li class="clients-item">
+                <a href="#">
+                  <img src="assets/images/logo-6-color.png" alt="client logo">
+                </a>
+              </li> -->
+            </ul>
+          </section>
+        </article>
+
+        <!-- RESUME -->
+        <article class="resume" data-page="mi experiencia">
+          <header>
+            <h2 class="h2 article-title">Mi experiencia</h2>
+          </header>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Educación</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Facultad de ingeniería, UNAM</h4>
+
+                <span>2018 - Presente</span>
+
+                <p class="timeline-text">
+                  Estudio la carrera de ingeniería en computación con aptitudes destacables y una
+                  gran pasión por la carrera.
+                </p>
+              </li>
+              
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">IOS Development Lab, UNAM</h4>
+
+                <span>2019 - 2020</span>
+
+                <p class="timeline-text">
+                  Tome un curso en el laboratorio que Apple dono a la universidad para desarrollar aplicaciones 
+                  con Swift para el sistema operativo IOS.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Escuela Nacional Preparatoria No. 2, UNAM</h4>
+
+                <span>2015 - 2018</span>
+
+                <p class="timeline-text">
+                  Termine el bachillerato de forma satisfactoria y con promedio sobre saliente, además de esto
+                  tome varios cursos de programación dentro de la preparatoria.
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Experiencia</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Programador Jr | Abricot</h4>
+
+                <span>2021 — Presente</span>
+
+                <p class="timeline-text">
+                  He desarrollado aplicaciones web con React.js para la parte del frontend y para la parte del backend
+                  he utilizado Java, Python, Ansible Runner, Shell script, Rabbit MQ, entre otros lenguajes.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Desarrollador de aplicaciones web | Facultad de ingeniería, UNAM</h4>
+
+                <span>2020 — 2021</span>
+
+                <p class="timeline-text">
+                  Realice una página desarrollada en React.js para un diplomado de bases de datos de la universidad.
+                </p>
+              </li>
+            </ol>
+          </section>
+          
+          <!-- <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Cursos</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Programador Jr | Abricot</h4>
+
+                <span>2021 — Presente</span>
+
+                <p class="timeline-text">
+                  He desarrollado aplicaciones web con React.js para la parte del frontend y para la parte del backend
+                  he utilizado Java, Python, Ansible Runner, Shell script, Rabbit MQ, entre otros lenguajes.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Desarrollador de aplicaciones web | Facultad de ingeniería, UNAM</h4>
+
+                <span>2020 — 2021</span>
+
+                <p class="timeline-text">
+                  Realice una página desarrollada en React.js para un diplomado de bases de datos de la universidad.
+                </p>
+              </li>
+            </ol>
+          </section> -->
+
+          <section class="skill">
+            <h3 class="h3 skills-title">Mis habilidades</h3>
+
+            <ul class="skills-list content-card">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Diseño web</h5>
+                  <data value="70">70%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 70%;"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Desarrollo web</h5>
+                  <data value="80">80%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%;"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Bases de datos</h5>
+                  <data value="90">90%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 90%;"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Frameworks Frontend</h5>
+                  <data value="80">80%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%;"></div>
+                </div>
+              </li>
+              
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Frameworks Backend</h5>
+                  <data value="75">75%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 75%;"></div>
+                </div>
+              </li>
+              
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Lenguajes de programación</h5>
+                  <data value="85">85%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 85%;"></div>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!-- PORTFOLIO -->
+        <article class="portfolio" data-page="portafolio">
+          <header>
+            <h2 class="h2 article-title">Portafolio</h2>
+          </header>
+
+          <section class="projects">
+            <ul class="filter-list">
+              <li class="filter-item">
+                <button class="active" data-filter-btn>Todos</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Desarrollo web</button>
+              </li>
+
+              <!-- <li class="filter-item">
+                <button data-filter-btn>Aplicaciones moviles</button>
+              </li> -->
+
+              <li class="filter-item">
+                <button data-filter-btn>Juegos</button>
+              </li>
+            </ul>
+
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-selecct-value>Selecciona una categoria</div>
+
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
+
+              <ul class="select-list">
+                <li class="select-item">
+                  <button data-select-item>Todos</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Desarrollo web</button>
+                </li>
+
+                <!-- <li class="select-item">
+                  <button data-select-item>Aplicaciones moviles</button>
+                </li> -->
+
+                <li class="select-item">
+                  <button data-select-item>Juegos</button>
+                </li>
+              </ul>
+            </div>
+
+            <ul class="project-list">
+              <li class="project-item  active" data-filter-item data-category="desarrollo web">
+                <a href="https://alanmgg.github.io/ghm/" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/project-1.jpg" alt="ghm" loading="lazy">
+                  </figure>
+
+                  <h3 class="project-title">Grupo Hospitalario de México</h3>
+
+                  <p class="project-category">Desarrollo web</p>
+                </a>
+              </li>
+
+              <li class="project-item  active" data-filter-item data-category="desarrollo web">
+                <a href="https://alanmgg.github.io/login/" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/project-2.png" alt="login&signup" loading="lazy">
+                  </figure>
+
+                  <h3 class="project-title">Login & Signup</h3>
+
+                  <p class="project-category">Desarrollo web</p>
+                </a>
+              </li>
+
+              <li class="project-item  active" data-filter-item data-category="juegos">
+                <a href="https://alanmgg.github.io/tetrisclone/" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/project-3.jpg" alt="tetris" loading="lazy">
+                  </figure>
+
+                  <h3 class="project-title">Tetris Clone</h3>
+
+                  <p class="project-category">Juegos</p>
+                </a>
+              </li>
+
+              <li class="project-item  active" data-filter-item data-category="desarrollo web">
+                <a href="https://alanmgg.github.io/global/" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/project-4.png" alt="globaldark" loading="lazy">
+                  </figure>
+
+                  <h3 class="project-title">Global Dark</h3>
+
+                  <p class="project-category">Desarrollo web</p>
+                </a>
+              </li>
+
+              <li class="project-item  active" data-filter-item data-category="desarrollo web">
+                <a href="https://alanmgg.github.io/netflixclone/" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/project-5.png" alt="netflix" loading="lazy">
+                  </figure>
+
+                  <h3 class="project-title">Netflix Clone</h3>
+
+                  <p class="project-category">Desarrollo web</p>
+                </a>
+              </li>
+
+              <li class="project-item  active" data-filter-item data-category="desarrollo web">
+                <a href="https://alanmgg.github.io/analogclock/" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/project-6.png" alt="analogclock" loading="lazy">
+                  </figure>
+
+                  <h3 class="project-title">Analog Clock</h3>
+
+                  <p class="project-category">Desarrollo web</p>
+                </a>
+              </li>
+
+              <li class="project-item  active" data-filter-item data-category="desarrollo web">
+                <a href="https://alanmgg.github.io/" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/project-7.png" alt="miniportfolio" loading="lazy">
+                  </figure>
+
+                  <h3 class="project-title">Mini portafolio</h3>
+
+                  <p class="project-category">Desarrollo web</p>
+                </a>
+              </li>
+
+              <li class="project-item  active" data-filter-item data-category="juegos">
+                <a href="https://alanmgg.github.io/crossyroad/" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/project-8.jpg" alt="crossyroad" loading="lazy">
+                  </figure>
+
+                  <h3 class="project-title">Crossy Road Game</h3>
+
+                  <p class="project-category">Juegos</p>
+                </a>
+              </li>
+
+              <li class="project-item  active" data-filter-item data-category="juegos">
+                <a href="https://alanmgg.github.io/tiltingmaze/" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/project-9.png" alt="tiltingmaze" loading="lazy">
+                  </figure>
+
+                  <h3 class="project-title">Tilting Maze Game</h3>
+
+                  <p class="project-category">Juegos</p>
+                </a>
+              </li>
+              
+              <li class="project-item  active" data-filter-item data-category="juegos">
+                <a href="https://alanmgg.github.io/trafficrun/" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/project-10.png" alt="trafficrun" loading="lazy">
+                  </figure>
+
+                  <h3 class="project-title">Traffic Run Game</h3>
+
+                  <p class="project-category">Juegos</p>
+                </a>
+              </li>
+
+              <li class="project-item  active" data-filter-item data-category="desarrollo web">
+                <a href="https://alanmg.vercel.app/" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/project-11.png" alt="miniportfolio" loading="lazy">
+                  </figure>
+
+                  <h3 class="project-title">Portafolio React</h3>
+
+                  <p class="project-category">Desarrollo web</p>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!-- BLOG -->
+        <!-- <article class="blog" data-page="blog">
+          <header>
+            <h2 class="h2 article-title">Blog</h2>
+          </header>
+
+          <section class="blog-posts">
+            <ul class="blog-posts-list">
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Fab 23, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
+
+                    <p class="blog-text">
+                      Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Fab 23, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">Best fonts every designer</h3>
+
+                    <p class="blog-text">
+                      Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Fab 23, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">Design digest #80</h3>
+
+                    <p class="blog-text">
+                      Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Fab 23, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">UI interactions of the week</h3>
+
+                    <p class="blog-text">
+                      Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Fab 23, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
+
+                    <p class="blog-text">
+                      Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Fab 23, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">Design digest #79</h3>
+
+                    <p class="blog-text">
+                      Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
+                    </p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article> -->
+
+        <!-- CONTACT -->
+        <article class="contact" data-page="contacto">
+          <header>
+            <h2 class="h2 article-title">Contacto</h2>
+          </header>
+
+          <section class="mapbox" data-mapbox>
+            <figure>
+              <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d240863.6849508183!2d-99.28370012001754!3d19.391003841481947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce0026db097507%3A0x54061076265ee841!2sCiudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses-419!2smx!4v1660158393676!5m2!1ses-419!2smx"
+              width="400" height="300" loading="lazy"></iframe>
+            </figure>
+          </section>
+
+          <section class="contact-form">
+            <h3 class="h3 form-title">Formulario de contacto</h3>
+
+            <form action="#" class="form" data-form>
+              <div class="input-wrapper">
+                <input type="text" name="fullname" class="form-input" placeholder="Nombre completo" required data-form-input>
+
+                <input type="email" name="email" class="form-input" placeholder="Correo electrónico" required data-form-input>
+              </div>
+
+              <textarea name="message" class="form-input" placeholder="Escribe tu mensaje..." required data-form-input></textarea>
+
+              <button class="form-btn" type="submit" disabled data-form-btn>
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Enviar mensaje</span>
+              </button>
+            </form>
+          </section>
+        </article>
+      </div>
+    </main>
+
+
+    <!--=============== JS ===============-->
+    <script src="assets/js/script.js"></script>
+
+    <!--=============== IONICON LINK ===============-->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
