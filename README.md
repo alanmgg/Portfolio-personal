@@ -5,15 +5,15 @@
 
   <p align="center">
     Este proyecto se realizo con el fin de mostrar mis conocimientos a través del desarrollo de software y desarrollo web. Se utilizo HTML, CSS y JavaScript. URL / Demo: 
-    <a href="https://alanmgdev.vercel.app/">alanmgdev.vercel.app</a>
+    <a href="http://alanmg.me/">alanmg.me</a>
     <br />
     <br />
-    <a href="https://alanmgdev.vercel.app/">Más sobre mi</a>
+    <a href="http://alanmg.me/">Más sobre mi</a>
   </p>
 </p>
 
 [![Repository Status](https://img.shields.io/badge/Repository%20Status-Maintained-dark%20green.svg?style=for-the-badge)](https://github.com/alanmgg/Portfolio-personal)
-[![Website Status](https://img.shields.io/badge/Website%20Status-Online-green?style=for-the-badge)](https://alanmgdev.vercel.app/)
+[![Website Status](https://img.shields.io/badge/Website%20Status-Online-green?style=for-the-badge)](http://alanmg.me/)
 [![Author](https://img.shields.io/badge/Author-Alan%20Francisco%20Mora%20G-blue.svg?style=for-the-badge)](https://github.com/alanmgg)
 [![Latest Release](https://img.shields.io/badge/Latest%20Release-21%20Jun%202022-yellow.svg?style=for-the-badge)](https://github.com/alanmgg/Portfolio-personal/commits/main)
 [![Twitter Follow](https://img.shields.io/twitter/follow/alanmgggg?color=ffcc66&logo=twitter&logoColor=ffffff&style=for-the-badge)](https://twitter.com/alanmgggg)
